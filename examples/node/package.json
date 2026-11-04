@@ -1,0 +1,18 @@
+{
+  "name": "kosareva-cloud-node-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Примеры запросов к API kosareva.cloud на SDK OpenAI для Node.js",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "chat": "node chat.mjs",
+    "stream": "node stream.mjs"
+  },
+  "dependencies": {
+    "openai": "^7.0.0"
+  }
+}

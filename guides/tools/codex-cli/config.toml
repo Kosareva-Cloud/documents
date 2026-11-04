@@ -1,0 +1,22 @@
+# Codex CLI -> kosareva.cloud
+#
+# Куда положить: ~/.codex/config.toml (Windows: C:\Users\<имя>\.codex\config.toml).
+# Если файл уже есть: строки model и model_provider поставьте в самое начало,
+# до любых [таблиц]: в TOML всё, что идёт после заголовка таблицы, относится к ней.
+#
+# Ключ в файл не пишется: Codex берёт его из переменной окружения, указанной в env_key.
+#   macOS/Linux:  export KOSAREVA_API_KEY="sk-..."
+#   PowerShell:   $env:KOSAREVA_API_KEY = "sk-..."
+# Переменная должна быть видна в том же терминале, где запускается codex.
+#
+# Модель меняется в поле model, имена и цены: https://kosareva.cloud/prices/
+# Полная инструкция: https://kosareva.cloud/instrumenty/codex-cli/
+
+model = "gpt-6-luna"
+model_provider = "kosareva"
+
+[model_providers.kosareva]
+name = "kosareva.cloud"
+base_url = "https://api.kosareva.cloud/v1"
+env_key = "KOSAREVA_API_KEY"
+wire_api = "responses"

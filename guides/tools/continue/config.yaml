@@ -1,0 +1,39 @@
+# Continue.dev -> kosareva.cloud
+#
+# Куда положить: ~/.continue/config.yaml (Windows: C:\Users\<имя>\.continue\config.yaml).
+# Файл открывается и из панели Continue через шестерёнку; после сохранения
+# Continue подхватывает изменения без перезапуска IDE.
+#
+# Вставьте свой ключ вместо sk-... Конфиг хранит ключ открытым текстом —
+# не коммитьте его в репозиторий.
+#
+# provider: openai указывается для всех моделей, включая Claude: это формат
+# протокола, а не название вендора. Модель выбирается полем model.
+# Имена и цены: https://kosareva.cloud/prices/
+# Полная инструкция: https://kosareva.cloud/instrumenty/continue/
+
+name: kosareva-cloud
+version: 0.0.1
+schema: v1
+
+models:
+  # Рабочая модель для кода, ревью и агентских задач.
+  - name: Claude Sonnet 5
+    provider: openai
+    model: claude-sonnet-5
+    apiBase: https://api.kosareva.cloud/v1
+    apiKey: sk-...
+    roles:
+      - chat
+      - edit
+      - apply
+
+  # Недорогая модель для мелких правок и быстрых вопросов.
+  - name: DeepSeek V4 Flash
+    provider: openai
+    model: deepseek-v4-flash
+    apiBase: https://api.kosareva.cloud/v1
+    apiKey: sk-...
+    roles:
+      - chat
+      - edit
