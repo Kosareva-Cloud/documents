@@ -2,7 +2,7 @@
 
 [English version](README.en.md)
 
-Kosareva Cloud даёт компаниям и разработчикам один API к более чем 170 моделям OpenAI, Anthropic, Google, xAI, DeepSeek и других вендоров в форматах OpenAI и Anthropic, оплата в рублях. Здесь всё в одном месте: как подключиться, как устроен API, как мы работаем.
+Kosareva Cloud даёт компаниям и разработчикам один API к более чем 200 моделям OpenAI, Anthropic, Google, xAI, DeepSeek и других вендоров в форматах OpenAI и Anthropic, оплата в рублях. Здесь всё в одном месте: как подключиться, как устроен API, как мы работаем.
 
 **Мы работаем только через настоящий API вендоров и не используем подписки ChatGPT, Claude Code или IDE как канал для API.**
 

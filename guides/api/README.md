@@ -94,7 +94,7 @@ console.log(response.choices[0].message.content);
 
 ## Текст и код
 
-Чат-запросы идут на `/v1/chat/completions`: те же `messages`, `tools`, `response_format` и `max_tokens`, что у OpenAI. Работает с любой из 105 текстовых моделей каталога.
+Чат-запросы идут на `/v1/chat/completions`: те же `messages`, `tools`, `response_format` и `max_tokens`, что у OpenAI. Работает с любой из 130 текстовых моделей каталога.
 
 ### Потоковая выдача
 
@@ -384,7 +384,7 @@ curl https://api.kosareva.cloud/v1/audio/transcriptions \
 
 ## Список моделей
 
-В каталоге 160 моделей, из них 105 текстовых. Точный список имён отдаёт сам API — это надёжнее любой страницы, включая эту.
+В каталоге более 200 моделей, из них 130 текстовых. Точный список имён отдаёт сам API — это надёжнее любой страницы, включая эту.
 
 ```sh
 curl https://api.kosareva.cloud/v1/models \

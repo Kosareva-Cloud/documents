@@ -2,7 +2,7 @@
 
 The Russian version is the main one: [README.md](README.md). Pages marked "in Russian" have no English version yet.
 
-Kosareva Cloud gives companies and developers one API for more than 170 models from OpenAI, Anthropic, Google, xAI, DeepSeek and other vendors in the OpenAI and Anthropic formats, with ruble billing. Everything is in one place here: how to connect, how the API works, how we work.
+Kosareva Cloud gives companies and developers one API for more than 200 models from OpenAI, Anthropic, Google, xAI, DeepSeek and other vendors in the OpenAI and Anthropic formats, with ruble billing. Everything is in one place here: how to connect, how the API works, how we work.
 
 **We work only through the real vendor APIs and don't use ChatGPT, Claude Code or IDE subscriptions as an API channel.**
 

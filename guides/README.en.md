@@ -1,6 +1,6 @@
 # Kosareva Cloud: connecting to the API
 
-Kosareva Cloud gives companies and developers one API for more than 170 models from OpenAI, Anthropic, Google, xAI, DeepSeek and other vendors in the OpenAI and Anthropic formats, with ruble billing. Official SDKs and off-the-shelf tools work without code changes: only the address and key change.
+Kosareva Cloud gives companies and developers one API for more than 200 models from OpenAI, Anthropic, Google, xAI, DeepSeek and other vendors in the OpenAI and Anthropic formats, with ruble billing. Official SDKs and off-the-shelf tools work without code changes: only the address and key change.
 
 The Russian version is the main one: [README.md](README.md). Most linked pages on kosareva.cloud are in Russian, and comments inside the example files are in Russian too.
 

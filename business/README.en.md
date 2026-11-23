@@ -1,6 +1,6 @@
 # Kosareva Cloud: AI API for companies
 
-Kosareva Cloud gives companies one API for more than 170 models in the OpenAI and Anthropic formats.
+Kosareva Cloud gives companies one API for more than 200 models in the OpenAI and Anthropic formats.
 
 **We work only through the real vendor APIs and don't use ChatGPT, Claude Code or IDE subscriptions as an API channel.**
 
@@ -49,7 +49,7 @@ Under the offer, invoices and acts are provided in Russian and English as PDF by
 
 ## Models and formats
 
-The catalog holds 178 entries as of 2026-11-04: text, images, video, embeddings, speech and music. They come from OpenAI, Anthropic, Google, xAI, DeepSeek, Moonshot AI, Qwen, MiniMax, GigaChat, YandexGPT and other vendors.
+The catalog holds 210 entries as of 2026-11-23: text, images, video, embeddings, speech and music. They come from OpenAI, Anthropic, Google, xAI, DeepSeek, Moonshot AI, Qwen, MiniMax, GigaChat, YandexGPT and other vendors.
 
 | Format | Address |
 |---|---|
@@ -138,7 +138,7 @@ We don't name customers, and there are no big implementation numbers here. What 
 
 ### What is Kosareva Cloud?
 
-Kosareva Cloud is an API for companies and developers: one key for more than 170 models, OpenAI and Anthropic formats, ruble billing. The company is registered as "Kosareva Cloud" LLC in the Republic of Armenia.
+Kosareva Cloud is an API for companies and developers: one key for more than 200 models, OpenAI and Anthropic formats, ruble billing. The company is registered as "Kosareva Cloud" LLC in the Republic of Armenia.
 
 ### Who does Kosareva Cloud sign the contract with?
 
